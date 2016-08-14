@@ -35,7 +35,7 @@ public class OperationListPanel extends JPanel {
 		return new ArrayList<>();
 	}
 	
-	public void addOperation(OperationInfo operationInfo) {
+	private void addOperation(OperationInfo operationInfo) {
 		add(Box.createVerticalStrut(10));
 		
 	}
